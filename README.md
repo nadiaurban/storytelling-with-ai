@@ -1,7 +1,7 @@
 # storytelling-with-ai
 # 📖 AI Storytelling App
 
-![alt text](image.png)
+![Alt text](logo-header.png)
 
 
 An interactive AI-powered storytelling tool designed for middle school students. It helps students generate creative short stories using AI. The app was created for a "Storytelling with AI" event I held at Shanghai Thomas School, a bilingual educational institution in China.
@@ -21,8 +21,6 @@ An interactive AI-powered storytelling tool designed for middle school students.
 4. Click **"Show Keywords & Translations"** to extract key vocabulary.
 5. Click **"Download Story as TXT"** to save it.
 
-![alt text](image.png)
-
 ## 🛠️ Installation & Running Locally
 
 1. Clone the repository:
@@ -30,4 +28,4 @@ An interactive AI-powered storytelling tool designed for middle school students.
    git clone https://github.com/nadiaurban/storytelling-with-ai.git
    cd storytelling-with-ai
 
-
+![Alt text](IMG_3544.jpg)
