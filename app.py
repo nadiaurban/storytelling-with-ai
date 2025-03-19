@@ -8,7 +8,7 @@ from keywords import extract_keywords
 
 # Load the .env file to access the OpenAI API key
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") openai_api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
 
 if not OPENAI_API_KEY:
     st.error("⚠️ API Key not found. Check your .env file.")
