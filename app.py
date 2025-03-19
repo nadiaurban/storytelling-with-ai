@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from keywords import extract_keywords
 
+# run the app: streamlit run app.py --theme.base=light --server.address 0.0.0.0 --server.port 8501
 
 # Load the .env file to access the OpenAI API key
 load_dotenv()
